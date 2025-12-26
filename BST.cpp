@@ -185,7 +185,7 @@ class BST
 
     Node* deleteNodeHelper(Node* root , int key) //Deleting a specific node using key of that node 
     {
-        if(root == NULL) return root;  //If the current root node for the current recursion is empty simply return the node
+        if(root == NULL) return NULL;  //If the current root node for the current recursion is empty simply return the node
 
         if(key < root->data)
         {
